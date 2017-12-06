@@ -12,7 +12,8 @@ export default class Index extends React.Component {
     return { isDead };
   }
   render() {
-    const { isDead } = this.props.isDead;
+    const { isDead } = this.props;
+
     const style = {
       title: {
         textAlign: 'center',
